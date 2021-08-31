@@ -134,5 +134,3 @@ model_name, score = find_best_model(models)
 
 print("\nDisplay best classifier report...")
 print_classification_report(model_name, models[model_name])
-
-print('Hello world')
